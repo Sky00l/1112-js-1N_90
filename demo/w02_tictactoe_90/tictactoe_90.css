@@ -13,9 +13,9 @@ header h1 {
 #container {
   width: 400px;
   background-color: #666;
-  margin: 40px;
+  margin: 40px auto;
   border-radius: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 40px;
 }
 
 #board {
@@ -47,6 +47,8 @@ footer {
   background-color: #444;
   color: #fff;
   font-size: 25px;
+  padding: 15px;
+  width: 70%;
 }
 
 #board li:hover,
