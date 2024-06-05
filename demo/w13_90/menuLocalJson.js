@@ -1,18 +1,40 @@
-import menu from './data_xx.js';
+// import menu from './data_xx.js';
+// const url = './api/data_xx.json';
 
-const sectionCenter = document.querySelector('.section-center');
-const btnContainer = document.querySelector('.btn-container');
+let menu = [];
+const url = "./data_xx.json"
+
+const sectionCenter = document.querySelector('section-center');
+const btnContainer = document.querySelector('btn-container');
+
+const fetchData = async () => {
+  try {
+    const response = await fetch(url);
+    const data = response.json();
+    console.log('fetch menu', data)
+    return data;
+  } catch (error) {
+    console.log(error)
+  }
+}
 
 console.log('menu', menu);
 
 const displayMenuItems = (menuItems) => {
   let displayMenu = menuItems
     .map((item) => {
-      const { id, title, category, price, img, desc } = item;
+      const {
+        id,
+        title,
+        category,
+        price,
+        local_img,
+        desc
+      } = item;
       return `
       <article class="menu-item">
       <img
-        src=${img}
+        src=${local_img}
         alt="buttermilk"
         pancakes=""
         class="photo"
@@ -74,7 +96,8 @@ const displayMenuButtons = () => {
   });
 };
 
-window.addEventListener('DOMContentLoaded', () => {
+window.addEventListener('DOMContentLoaded', async () => {
+  menu = await fetchData()
   displayMenuItems(menu);
   displayMenuButtons();
 });

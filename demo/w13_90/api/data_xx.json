@@ -5,22 +5,24 @@
         "price": 15.99,
         "local_img": "./images/item-1.jpeg",
         "remote_img": "",
-        "descript": "I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed",
+        "descript": "I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed"
     },
     {
         "id": 2,
         "title": "diner double",
         "category": "lunch",
         "price": 13.99,
-        "remote_img": "./images/item-2.jpeg",
-        "descript": "vaporware iPhone mumblecore selvage raw denim slow-carb leggings gochujang helvetica man braid jianbing. Marfa thundercats",
+        "local_img": "./images/item-1.jpeg",
+        "remote_img": "",
+        "descript": "vaporware iPhone mumblecore selvage raw denim slow-carb leggings gochujang helvetica man braid jianbing. Marfa thundercats"
     },
     {
         "id": 3,
         "title": "godzilla milkshakes",
         "category": "shakes",
         "price": 6.99,
-        "remote_img": "./images/item-3.jpeg",
-        "descript": "ombucha chillwave fanny pack 3 wolf moon street art photo booth before they sold out organic viral.",
+        "local_img": "./images/item-1.jpeg",
+        "remote_img": "",
+        "descript": "ombucha chillwave fanny pack 3 wolf moon street art photo booth before they sold out organic viral."
     }
 ]
