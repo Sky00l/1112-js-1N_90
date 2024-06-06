@@ -12,7 +12,7 @@
         "title": "diner double",
         "category": "lunch",
         "price": 13.99,
-        "local_img": "./images/item-1.jpeg",
+        "local_img": "./images/item-2.jpeg",
         "remote_img": "",
         "descript": "vaporware iPhone mumblecore selvage raw denim slow-carb leggings gochujang helvetica man braid jianbing. Marfa thundercats"
     },
@@ -21,7 +21,7 @@
         "title": "godzilla milkshakes",
         "category": "shakes",
         "price": 6.99,
-        "local_img": "./images/item-1.jpeg",
+        "local_img": "./images/item-3.jpeg",
         "remote_img": "",
         "descript": "ombucha chillwave fanny pack 3 wolf moon street art photo booth before they sold out organic viral."
     }
