@@ -30,7 +30,7 @@ const displayMenuItems = (menuItems) => {
                 category,
                 price,
                 local_img,
-                descript
+                descrip
             } = item;
             return `
       <article class="menu-item">
@@ -46,7 +46,7 @@ const displayMenuItems = (menuItems) => {
           <h4 class="price">$${price}</h4>
         </header>
         <p class="item-text">
-          ${descript}
+          ${descrip}
         </p>
       </div>
     </article>
