@@ -1,6 +1,6 @@
 // import { products_xx, all_products_xx } from './p1_data_xx.js';
 
-import { _supabase } from './clientSupabase_90';
+import { _supabase } from './clientSupabase_90.js';
 
 let products_xx = [];
 
